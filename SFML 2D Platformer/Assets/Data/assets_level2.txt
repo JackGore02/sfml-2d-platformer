@@ -1,0 +1,6 @@
+p1 platform_1.png
+p2 platform_2.png
+p3 platform_3.png
+p4 platform_4.png
+t1 trap_1.png
+d1 door_1.png

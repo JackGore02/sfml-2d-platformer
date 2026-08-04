@@ -1,0 +1,29 @@
+# Visual Studio user state
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+
+# Build output and intermediate files
+build/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+*.exe
+*.ilk
+*.iobj
+*.ipdb
+*.obj
+*.pdb
+*.tlog
+*.log
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.userosscache
+*.sln.docstates

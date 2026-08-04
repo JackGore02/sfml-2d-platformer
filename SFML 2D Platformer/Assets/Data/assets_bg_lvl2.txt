@@ -1,0 +1,12 @@
+static background_1.png
+static2 background_2.png
+decor1 decor_1.png
+decor2 decor_2.png
+decor3 decor_3.png
+decor4 decor_4.png
+decor5 decor_5.png
+decor6 decor_6.png
+decor7 decor_7.png
+decor8 decor_8.png
+fore1 foreground_1.png
+fore2 foreground_2.png

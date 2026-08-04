@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Game\GameScreenHUB.cpp" />
+    <ClCompile Include="Source\Game\GameBullet.cpp" />
+    <ClCompile Include="Source\Game\GameCamera.cpp" />
+    <ClCompile Include="Source\Game\GameCameraHUD.cpp" />
+    <ClCompile Include="Source\Game\GameControls.cpp" />
+    <ClCompile Include="Source\Game\GameEnemy.cpp" />
+    <ClCompile Include="Source\Game\GameHUDElemBasic.cpp" />
+    <ClCompile Include="Source\Game\GameManager.cpp" />
+    <ClCompile Include="Source\Game\GameObjectAnimated.cpp" />
+    <ClCompile Include="Source\Game\GameObjectBasic.cpp" />
+    <ClCompile Include="Source\Game\GamePlayer.cpp" />
+    <ClCompile Include="Source\Game\GameScreenLevel.cpp" />
+    <ClCompile Include="Source\Game\GameScreenMain.cpp" />
+    <ClCompile Include="Source\Game\GameScreenMenuRoot.cpp" />
+    <ClCompile Include="Source\Game\GameScreenShop.cpp" />
+    <ClCompile Include="Source\Game\GameScreenSplash.cpp" />
+    <ClCompile Include="Source\Game\HubPlayer.cpp" />
+    <ClCompile Include="Source\Game\IGameObjectBase.cpp" />
+    <ClCompile Include="Source\Game\MenuControls.cpp" />
+    <ClCompile Include="Source\Game\MenuScreenRoot.cpp" />
+    <ClCompile Include="Source\Game\MenuScreenSubMenu.cpp" />
+    <ClCompile Include="Source\Engine\LJMUAnimSprite.cpp" />
+    <ClCompile Include="Source\Engine\LJMUGameBase.cpp" />
+    <ClCompile Include="Source\Engine\LJMUInterfaces.cpp" />
+    <ClCompile Include="Source\Engine\LJMUSettings.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Game\GameAssets.h" />
+    <ClInclude Include="Source\Game\GameBullet.h" />
+    <ClInclude Include="Source\Game\GameCamera.h" />
+    <ClInclude Include="Source\Game\GameCameraHUD.h" />
+    <ClInclude Include="Source\Game\GameControls.h" />
+    <ClInclude Include="Source\Game\GameDataFiles.h" />
+    <ClInclude Include="Source\Game\GameEnemy.h" />
+    <ClInclude Include="Source\Game\GameEnums.h" />
+    <ClInclude Include="Source\Game\GameHUDElemBasic.h" />
+    <ClInclude Include="Source\Game\GameInterfaces.h" />
+    <ClInclude Include="Source\Game\GameManager.h" />
+    <ClInclude Include="Source\Game\GameObjectAnimated.h" />
+    <ClInclude Include="Source\Game\GameObjectBasic.h" />
+    <ClInclude Include="Source\Game\GamePCH.h" />
+    <ClInclude Include="Source\Game\GamePlayer.h" />
+    <ClInclude Include="Source\Game\GameScreenHUB.h" />
+    <ClInclude Include="Source\Game\GameScreenLevel.h" />
+    <ClInclude Include="Source\Game\GameScreenMain.h" />
+    <ClInclude Include="Source\Game\GameScreenMenuRoot.h" />
+    <ClInclude Include="Source\Game\GameScreenShop.h" />
+    <ClInclude Include="Source\Game\GameScreenSplash.h" />
+    <ClInclude Include="Source\Game\GameShopElemsBasic.h" />
+    <ClInclude Include="Source\Game\HubPlayer.h" />
+    <ClInclude Include="Source\Game\IGameObjectBase.h" />
+    <ClInclude Include="Source\Game\MenuControls.h" />
+    <ClInclude Include="Source\Game\MenuScreenRoot.h" />
+    <ClInclude Include="Source\Game\MenuScreenSubMenu.h" />
+    <ClInclude Include="Source\Engine\LJMUAnimSprite.h" />
+    <ClInclude Include="Source\Engine\LJMUGameBase.h" />
+    <ClInclude Include="Source\Engine\LJMUInterfaces.h" />
+    <ClInclude Include="Source\Engine\LJMUPCH.h" />
+    <ClInclude Include="Source\Engine\LJMUPolar.h" />
+    <ClInclude Include="Source\Engine\LJMUResourceHelper.h" />
+    <ClInclude Include="Source\Engine\LJMUSettings.h" />
+    <ClInclude Include="Source\Engine\LJMUTrigonometry.h" />
+    <ClInclude Include="Source\Engine\LJMUFunctionLibrary.h" />
+    <ClInclude Include="Source\Engine\LJMUVectorMath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Engine\LJMUPolar.inl" />
+    <None Include="Source\Engine\LJMUResourceHelper.inl" />
+    <None Include="Source\Engine\LJMUTrigonometry.inl" />
+    <None Include="Source\Engine\LJMUVectorMath.inl" />
+    <None Include="..\docs\LJMUFrameworkStructure.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Data\assets_bg.txt" />
+    <Text Include="Assets\Data\assets_bg_lvl2.txt" />
+    <Text Include="Assets\Data\assets_level.txt" />
+    <Text Include="Assets\Data\assets_level2.txt" />
+    <Text Include="Assets\Data\level2_env.txt" />
+    <Text Include="Assets\Data\level2_geom.txt" />
+    <Text Include="Assets\Data\level_env.txt" />
+    <Text Include="Assets\Data\level_geom.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D7CA92DC-CE8D-480A-A63B-EE9CF464CE52}</ProjectGuid>
+    <RootNamespace>SFML2DPlatformer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SFML 2D Platformer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>C:\cgt\cgt-lib\SFML-2.5.1_x64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\cgt\cgt-lib\SFML-2.5.1_x64\include;.\Source\Engine;.\Source\Game;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\cgt\cgt-lib\SFML-2.5.1_x64\include;.\Source\Engine;.\Source\Game;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\cgt\cgt-lib\SFML-2.5.1_x64\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\cgt\cgt-lib\SFML-2.5.1\include;.\Source\Engine;.\Source\Game;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\cgt\cgt-lib\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\cgt\cgt-lib\SFML-2.5.1\include;.\Source\Engine;.\Source\Game;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\cgt\cgt-lib\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;ogg.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;flac.lib;freetype.lib;sfml-system-s-d.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;ogg.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;flac.lib;freetype.lib;sfml-system-s-d.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;ogg.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;flac.lib;freetype.lib;sfml-system-s.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-network-s.lib;sfml-audio-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;ogg.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;flac.lib;freetype.lib;sfml-system-s.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-network-s.lib;sfml-audio-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

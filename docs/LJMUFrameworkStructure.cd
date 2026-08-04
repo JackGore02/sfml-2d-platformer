@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sf::ILJMUScreenBase">
+    <Position X="0.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAABAABAAAAAAAQAAAAAAAAAEAEAAAAAUAAA=</HashCode>
+      <FileName>include\LJMUInterfaces.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sf::ILJMUSFMLManager">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAIAACAAAAAAAAAAAAIAAAAAAAAAACAAAA=</HashCode>
+      <FileName>include\LJMUInterfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::ILJMUUpdatable">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>include\LJMUInterfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::LJMUAnimSeq">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAEABAAABAAAEAgAAAAAAEAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\LJMUAnimSprite.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_sprite_tex" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sf::LJMUAnimSprite">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgIAACAgIICAEAAAJgABEIAAKgAgAEEADAYBSMIAA=</HashCode>
+      <FileName>include\LJMUAnimSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::LJMUGameBase">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIgABAEAgAAIABCAgKEIAAAAAAAIAIAIAAAIAACUAAA=</HashCode>
+      <FileName>include\LJMUGameBase.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_app_screen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sf::LJMUResourceHelper&lt;Res, Id&gt;">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAAIAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\LJMUResourceHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::LJMUSettings">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAREAAAAgAASFACQyAQgLZAAFEDoGAIAQwSIGIghWQQ=</HashCode>
+      <FileName>include\LJMUSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Drawable">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Drawable.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Transformable">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAIADgCgGCAAAAQACgDDAAgAAACAAAAAAEAAAA=</HashCode>
+      <FileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Transformable.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::weak_ptr&lt;_Ty&gt;" Collapsed="true">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEEAAAAAAAAAgAAAAAAAEAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\memory</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::shared_ptr&lt;_Ty&gt;" Collapsed="true">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAkAAAAQgAAAAAAIICAAQAgAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\memory</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Texture">
+    <Position X="15.5" Y="8.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="sf::Texture::CoordinateType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Texture.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAEQAAYMACgAhCACAMAgAAABBAACAAAAJwBAJEAIg=</HashCode>
+      <FileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Texture.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="sf::LJMUPolar2&lt;T&gt;">
+    <Position X="10.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAEAAAAABAAIAAAA=</HashCode>
+      <FileName>include\LJMUPolar.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sf::LJMUTrig&lt;double&gt;">
+    <Position X="5.75" Y="4.75" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="sf::LJMUTrig&lt;double&gt;::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\LJMUTrigonometry.inl</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgACAAAAAAAAYAAAAABQAAAQAAIABAAgAAAAAAAAA=</HashCode>
+      <FileName>include\LJMUTrigonometry.inl</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sf::LJMUTrig&lt;float&gt;">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="sf::LJMUTrig&lt;float&gt;::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\LJMUTrigonometry.inl</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgACAAAAAAAAYAAAAABQAAAQAAIABAAgAAAAAAAAA=</HashCode>
+      <FileName>include\LJMUTrigonometry.inl</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
