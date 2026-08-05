@@ -10,6 +10,7 @@ build/
 [Dd]ebug/
 [Rr]elease/
 x64/
+!ThirdParty/SFML-2.5.1/lib/x64/
 x86/
 [Ww]in32/
 *.exe

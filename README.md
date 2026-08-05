@@ -44,14 +44,12 @@ The repository is preserved as a record of the collaborative coursework. Because
 - Visual Studio 2022 with the **Desktop development with C++** workload
 - MSVC v143 platform toolset
 - Windows 10 SDK
-- SFML 2.5.1, with the Visual Studio project's include and library paths configured for its installation location
-
-The supplied project configuration expects the university-provided x64 and Win32 SFML installations under `C:\cgt\cgt-lib`. This location is not required by SFML itself. If SFML is installed elsewhere, update the project's include and library paths to match that location before building.
+- No separate SFML installation is needed. The required SFML 2.5.1 headers and x64 static libraries are included under `ThirdParty/SFML-2.5.1`.
 
 ## Building and running
 
 1. Open `SFML 2D Platformer.sln` in Visual Studio 2022.
-2. Select either **Debug** or **Release** and the **x64** platform.
+2. Select either **Debug** or **Release**. The project targets x64.
 3. Choose **Build > Build Solution** or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>.
 4. Run without the debugger using <kbd>Ctrl</kbd>+<kbd>F5</kbd>.
 
@@ -61,7 +59,7 @@ You can also build from a Visual Studio Developer Command Prompt:
 msbuild "SFML 2D Platformer.sln" /p:Configuration=Release /p:Platform=x64
 ```
 
-Build output is written beneath `build/<platform>/<configuration>`. The game loads assets through paths relative to the `SFML 2D Platformer` project directory. Running from Visual Studio provides the intended working directory; use that same directory if launching the executable manually.
+Build output is written beneath `build/<platform>/<configuration>`. The game loads assets through paths relative to the `SFML 2D Platformer` project directory. Running from Visual Studio provides the intended working directory, use that same directory if launching the executable manually.
 
 ## Gameplay
 
